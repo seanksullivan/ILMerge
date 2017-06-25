@@ -1,6 +1,6 @@
 ﻿using System.Security.Cryptography;
 
-namespace ILMerging.Tests.Helpers
+namespace TestTools.Helpers
 {
     public static class CspContainerUtils
     {

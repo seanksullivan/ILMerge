@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace ILMerging.Tests.Helpers
+namespace TestTools.Helpers
 {
     public static class ShadowCopyUtils
     {

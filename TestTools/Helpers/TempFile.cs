@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Threading;
 
-namespace ILMerging.Tests.Helpers
+namespace TestTools.Helpers
 {
     [DebuggerDisplay("{ToString(),nq}")]
     public sealed class TempFile : IDisposable

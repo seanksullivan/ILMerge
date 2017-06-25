@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 
-namespace ILMerging.Tests.Helpers
+namespace TestTools.Helpers
 {
     public static class ProcessUtils
     {

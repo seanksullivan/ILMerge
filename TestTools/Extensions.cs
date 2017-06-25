@@ -1,8 +1,9 @@
-﻿using System.Linq;
+﻿using ILMerging;
+using System.Linq;
 using System.Reflection;
-using ILMerging.Tests.Helpers;
+using TestTools.Helpers;
 
-namespace ILMerging.Tests
+namespace TestTools
 {
     internal static class Extensions
     {

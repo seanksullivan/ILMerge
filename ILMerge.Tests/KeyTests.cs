@@ -2,7 +2,8 @@
 using System.IO;
 using System.Reflection;
 using System.Security.Cryptography;
-using ILMerging.Tests.Helpers;
+using TestTools.Helpers;
+using TestTools;
 using NUnit.Framework;
 
 namespace ILMerging.Tests

@@ -10,6 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ILMerge\ILMerge.csproj" />
     <ProjectReference Include="..\System.Compiler\System.Compiler.csproj" />
+    <ProjectReference Include="..\TestTools\TestTools.csproj" />
   </ItemGroup>
 
   <ItemGroup>

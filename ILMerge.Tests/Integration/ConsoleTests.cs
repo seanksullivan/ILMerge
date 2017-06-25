@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
-using ILMerging.Tests.Helpers;
+using TestTools.Helpers;
 using NUnit.Framework;
 
 namespace ILMerging.Tests.Integration

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace ILMerging.Tests.Helpers
+namespace TestTools.Helpers
 {
     public static class StackEnumerator
     {
