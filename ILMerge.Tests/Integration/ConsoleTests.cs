@@ -5,9 +5,11 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using TestTools.Helpers;
 using NUnit.Framework;
+using System.Diagnostics.CodeAnalysis;
 
 namespace ILMerging.Tests.Integration
 {
+    [ExcludeFromCodeCoverage]
     [TestFixture, Category("Integration")]
     public sealed class ConsoleTests
     {

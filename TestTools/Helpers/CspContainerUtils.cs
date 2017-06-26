@@ -1,7 +1,9 @@
-﻿using System.Security.Cryptography;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Security.Cryptography;
 
 namespace TestTools.Helpers
 {
+    [ExcludeFromCodeCoverage]
     public static class CspContainerUtils
     {
         public static void ImportBlob(bool machineLevel, string containerName, KeyNumber keyNumber, byte[] blob)

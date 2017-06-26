@@ -5,9 +5,11 @@ using System.Security.Cryptography;
 using TestTools.Helpers;
 using TestTools;
 using NUnit.Framework;
+using System.Diagnostics.CodeAnalysis;
 
 namespace ILMerging.Tests
 {
+    [ExcludeFromCodeCoverage]
     [TestFixture]
     public sealed class KeyTests
     {

@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Threading;
 
 namespace TestTools.Helpers
 {
+    [ExcludeFromCodeCoverage]
     [DebuggerDisplay("{ToString(),nq}")]
     public sealed class TempFile : IDisposable
     {

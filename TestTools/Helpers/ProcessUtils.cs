@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
 namespace TestTools.Helpers
 {
+    [ExcludeFromCodeCoverage]
     public static class ProcessUtils
     {
         public static ProcessResult Run(ProcessStartInfo startInfo)

@@ -49,6 +49,8 @@
     <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaselineMSTests.cs" />
+    <Compile Include="ConsoleMSTests.cs" />
     <Compile Include="KeyMSTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

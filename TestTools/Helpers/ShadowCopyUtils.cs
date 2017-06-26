@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 
 namespace TestTools.Helpers
 {
+    [ExcludeFromCodeCoverage]
     public static class ShadowCopyUtils
     {
         public static IEnumerable<Assembly> GetTransitiveClosure(params Assembly[] assemblies)

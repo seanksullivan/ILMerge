@@ -7,15 +7,19 @@ using TestTools.Helpers;
 using TestTools;
 using System.Security.Cryptography;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 
 namespace ILMergeMsTest.UnitTests
 {
     /// <summary>
     /// The purpose of this class is to demonstrate that MSTest/MSTest2 is just as simple to use as nUnit.
-    /// MSTest and nUnit both have their own strengths and weeknesses, but for the most part - these tests are simple.
+    /// MSTest and NUnit both have their own strengths and weaknesses, but for the most part - these tests are simple.
+    /// Test output and working directory is within the generated "TestResults" folder - it is cleansed for all "Release" test runs,
+    /// and partially persists for "Debug" test runs (the NUnit tests are using the system's "Temp" directory, which is not preferable).
     /// </summary>
+    [ExcludeFromCodeCoverage]
     [TestClass]
-    public class KeyMSTests
+    public sealed class KeyMSTests
     {
         #region Private Members
         private const string Extension = ".dll";

@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
 
 namespace TestTools.Helpers
 {
+    [ExcludeFromCodeCoverage]
     public static class StackEnumerator
     {
         public static StackEnumerator<T> Create<T>(params T[] initial) => new StackEnumerator<T>(initial);
@@ -14,6 +16,7 @@ namespace TestTools.Helpers
         public static StackEnumerator<TContext, T> Create<TContext, T>(TContext initialContext, IEnumerator<T> initial) => new StackEnumerator<TContext, T>(initialContext, initial);
     }
 
+    [ExcludeFromCodeCoverage]
     public sealed class StackEnumerator<T> : IDisposable
     {
         private readonly Stack<IEnumerator<T>> stack = new Stack<IEnumerator<T>>();
@@ -76,6 +79,7 @@ namespace TestTools.Helpers
         }
     }
 
+    [ExcludeFromCodeCoverage]
     public sealed class StackEnumerator<TContext, T> : IDisposable
     {
         public struct ContextCurrent

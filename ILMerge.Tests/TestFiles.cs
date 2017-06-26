@@ -1,8 +1,10 @@
 ﻿using System.IO;
 using NUnit.Framework;
+using System.Diagnostics.CodeAnalysis;
 
 namespace ILMerging.Tests
 {
+    [ExcludeFromCodeCoverage]
     internal static class TestFiles
     {
         private static string FromCurrentDir(string fileName)
